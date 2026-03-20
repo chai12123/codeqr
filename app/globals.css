@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-brand-bg text-brand-black antialiased;
+  font-family: var(--font-plus-jakarta), var(--font-sarabun), sans-serif;
+  line-height: 1.5;
+}
+
+:lang(th) {
+  line-height: 1.7;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .tracking-heading {
+    letter-spacing: -0.02em;
+  }
+}
