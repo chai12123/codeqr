@@ -10,3 +10,10 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000).
 
 Design tokens live in `design.md` and `tailwind.config.ts`.
+
+## Auth
+
+In the Supabase dashboard, add these **Redirect URLs** (Auth → URL configuration):
+
+- `http://localhost:3000/auth/callback`
+- Your production URL + `/auth/callback` when you deploy
