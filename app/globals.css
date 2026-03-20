@@ -6,6 +6,10 @@
   color-scheme: light;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-brand-bg text-brand-black antialiased;
   font-family: var(--font-plus-jakarta), var(--font-sarabun), sans-serif;
